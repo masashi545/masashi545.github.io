@@ -1,0 +1,39 @@
+html {
+    font-size: 10px; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+ }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  html {
+    background-color: #ecc483;
+  }
+
+  body {
+    width: 1000px;
+    margin: 0 auto; /* センタリング */
+    background-color: #eaf3a8;
+    padding: 0 20px 20px 20px; /* 上、右、下、左の余白 */
+    border: 10px solid rgb(168, 40, 40);
+  }
+
+  h1 {
+    margin: 0; /* デフォルトで入ってる上の余白を消す */
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 3px black;
+  }
+
+  img {
+    display: block; /* imgはブロック要素でないため、マージンを作るには、表示モードをブロックにする必要がある */
+    margin: 0 auto; /* センタリング */
+  }
